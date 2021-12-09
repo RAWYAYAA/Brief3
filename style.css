@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header svg{
+    margin: 10px;
+}
+body{
+    background-image: url("./photo-1564013799919-ab600027ffc6.jpg");
+    background-size:cover ;
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;  
+}
+.logo{
+    width: 180px;
+}
+.form{
+    border: solid 2px whitesmoke;
+    border-radius: 8px;
+    width: 250px;
+    height: 370px;
+    padding: 50px;
+    background-color:rgba(245, 245, 245, 0.486);
+    padding-bottom: 100px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+button{
+    border-radius: 5px;
+    background-color:rgb(111, 211, 111);
+    border-color: rgb(111, 211, 111) ;
+    margin: 20px;
+    padding: 5px;
+    width: 120px;
+}
+input{
+margin-top: 10px;
+margin-bottom: 15px;
+}
+h1{
+    font-family: serif;
+    color: rgb(27, 27, 163);
+}
+#type{
+    width :150px;
+    background-color: white;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>formulaire</title>
+</head>
+<body>
+    <header>
+       <img  class="logo" src="./ok.png" alt="logo">
+    </header>
+
+    <main>
+        <form>
+                <div class="form">
+                    <h1>Formulaire</h1>
+                <label for="Rayon de recherche">Rayon de recherche</label><br>
+                <input type="text" name="Rayon de recherche"><br>
+                <label for="Fourchette de prix">Fourchette de prix</label><br>
+                <input type="number" name="Fourchette de prix"><br>
+                <label for="Chambres">Chambres</label><br>
+                <input type="number" max="5" min="1" name="Chambres"> <br>
+            <label for="type de propriété">type de propriété</label><br>
+            <select id="type">
+                <option value="a">appartement</option>
+                <option value="a">villas</option>
+                <option value="a">studio</option>
+                <option value="a">autre</option>
+            </select><br>
+                <label for="propriété vendues">propriété vendues</label><br>
+                <input type="text" name="propriété vendues"><br>
+                <button>
+                    Search
+                </button>
+            </div>
+        </form> 
+    </main>
+    
+</body>
+</html>
