@@ -19,7 +19,7 @@
                 <label for="Rayon de recherche">Rayon de recherche</label><br>
                 <input type="text" name="Rayon de recherche"><br>
                 <label for="Fourchette de prix">Fourchette de prix</label><br>
-                <input type="number" name="Fourchette de prix"><br>
+                <input type="range" min="0"  max="range value" name="Fourchette de prix"><br>
                 <label for="Chambres">Chambres</label><br>
                 <input type="number" max="5" min="1" name="Chambres"> <br>
             <label for="type de propriété">type de propriété</label><br>
@@ -29,8 +29,8 @@
                 <option value="a">studio</option>
                 <option value="a">autre</option>
             </select><br>
-                <label for="propriété vendues">propriété vendues</label><br>
-                <input type="text" name="propriété vendues"><br>
+                <label for="propriété vendues">inclure les propriétés vendues</label><br>
+                <input type="checkbox" name=" inclure les propriétés vendues"><br>
                 <button>
                     Search
                 </button>
