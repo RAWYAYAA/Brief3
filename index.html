@@ -13,32 +13,32 @@
     </header>
 
     <main>
-        
             <article>
                 <h1>
-                    Ici votre guide pour votre immobilier
+                   <strong> Ici votre guide pour votre immobilier</strong>
                 </h1>
                 <p>
-                    Trouver des immobiliers de toute types<br> dans les divers villes au Maroc <br> avec un prix que vous choississez </p>
+                   <strong> Trouver des immobiliers de toute types<br> dans les divers villes au Maroc <br> avec un prix que vous choississez </strong></p>
             </article>
                 <section class="form">
-                    <form>
+                <form>
                     <h1>Formulaire</h1>
-                <label for="Rayon de recherche">Rayon de recherche</label><br>
-                <input type="text" name="Rayon de recherche"><br>
-                <label for="Fourchette de prix">Fourchette de prix</label><br>
-                <input type="range" min="0"  max="range value" name="Fourchette de prix"><br>
-                <label for="Chambres">Chambres</label><br>
-                <input type="number" max="5" min="1" name="Chambres"> <br>
-            <label for="type de propriété">type de propriété</label><br>
-            <select id="type">
-                <option value="a">appartement</option>
-                <option value="a">villas</option>
-                <option value="a">studio</option>
-                <option value="a">autre</option>
-            </select><br>
-                <label for="propriété vendues">inclure les propriétés vendues</label><br>
-                <input type="checkbox" name=" inclure les propriétés vendues"><br>
+                <label for="recherche">Rayon de recherche</label><br>
+                <input type="text" id="recherche" name="Rayon de recherche"><br>
+                <label for="prix"><strong> fourchette de prix</label><br>
+                <input class="range" id="prix" type="range" min="0"  max="10000" name="Fourchette de prix"><br>
+                <label for=" nChambre">Chambres</label><br>
+                <input type="number" id="nChambre" min="1" max="5" name="Chambres"> <br>
+                <label for="type">type de propriété</label><br>
+                <select id="type">
+                    <option value="0">type de propriété</option>
+                    <option value="a">appartement</option>
+                    <option value="b">villas</option>
+                    <option value="c">studio</option>
+                    <option value="d">autre</option>
+                </select><br>
+                <label for="vendues">inclure les propriétés vendues</label><br>
+                <input type="checkbox" id="vendues" name=" inclure les propriétés vendues"><br>
                 <button>
                     Search
                 </button>

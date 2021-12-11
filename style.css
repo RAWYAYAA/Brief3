@@ -2,9 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-
 }
-
 header svg{
     margin: 10px;
 }
@@ -15,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    backface-visibility: calc(10px);
 }
 main{
     display: flex;
@@ -36,7 +35,8 @@ main{
     padding-bottom: 100px;
     font-family: fantasy;
     font-size: 16px;
-    
+    font-weight: bold;
+    color: rgb(0, 0, 0);    
 }
 select{
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ margin-bottom: 15px;
 }
 h1{
     font-family: serif;
-    color: rgb(27, 27, 163);
+    color: rgb(52, 52, 165);
 }
 #type{
     width :150px;
@@ -69,14 +69,16 @@ h1{
      position: relative;
     top: -100px;
     font-size: 30px;
+    background-color:rgba(245, 245, 245, 0.527)
 }
-
 article p{
     position: relative;
     top: -50px;
     margin-top: 50px;
+    color: #000;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+    background-color:rgba(245, 245, 245, 0.527)
 }
 @media screen  and (min-width:1280px){
 body{
